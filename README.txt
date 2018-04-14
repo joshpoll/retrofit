@@ -46,7 +46,7 @@ Randoop did not generate any error-revealing tests.
 
 6.
 Randoop generated 2,936 regression tests.
-Randoop did not cover, e.g., retrofit2.Utils. I've tried adding it to myclasses.txt, but Randoop ignores it.
+Randoop did not cover, e.g., retrofit2.Utils. I did not include it in myclasses.txt.
 
 Run
 
