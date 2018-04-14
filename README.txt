@@ -10,9 +10,12 @@ Branch:   randoop
 Full URL: https://github.com/joshpoll/retrofit/tree/randoop
 
 2.
-The Utils.equals(Type a, Type b) method is not tested. To see this, run
+The Utils.equals(Type a, Type b) method is not tested. To see this, either run the following on an earlier commit than the one mentioned in part 3 or run
 
 git checkout master
+
+and then proceed.
+
 mvn clean cobertura:cobertura
 cd retrofit/target/site/cobertura
 
