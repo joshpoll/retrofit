@@ -45,6 +45,12 @@ Randoop did not generate any error-revealing tests.
 Randoop generated 2,936 regression tests.
 Randoop did not cover, e.g., retrofit2.Utils. I've tried adding it to myclasses.txt, but Randoop ignores it.
 
+Run
+
+mvn clean cobertura:cobertura
+
+as before to generate coverage results.
+
 Before Randoop regression tests:
 retrofit2.Retrofit:
 Line Coverage: 104/105
