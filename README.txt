@@ -74,3 +74,7 @@ I think the output could be more helpful. For example, when I had error-revealin
 I was also confused by why certain classes could be used with Randoop but others couldn't. For example retrofit2.Utils is considered a non-visible class, but I'm not sure why that is or what it means. What if Randoop enumerated all the classes I could use automatically?
 
 I think I would probably use Randoop's ability to make error-revealing tests early in development when there are likely lots of bugs that would be easy for a computer to find, but harder for a human. I might also use it for a larger project to generate regression tests. My guess is that error-revealing tests do not often reveal useful bugs for large-scale projects, but I may be wrong.
+
+Resources:
+I mainly used https://randoop.github.io/randoop/manual/index.html
+Time Spent: 8 hours
